@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 95%;
+	width: 100%;
+	background-color: #ffebcc;
+	align-items: center;
+	align-content: center;
+}
+
+.container {
+	margin: 30px;
+	background-color: #fff;
+	padding: 40px;
+	display: inline-block;
+	width: 98%;
+}
+
+.header {
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+	font-size: 19px;
+}
+input[type=text] {
+	height: 30px;
+}
+input[type=text], textarea {
+	width: 100%;
+	margin: 20px;
+	outline: none;
+	padding: 4px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=text]:hover, textarea:hover {
+	border: 1px solid #ffcc80;
+	border-radius: 4px;
+}
+
+input[type=submit] {
+	width: 15%;
+	margin-top: 30px;
+	margin-left: 440px;
+	font-size: 18px;
+	background-color: #ffebcc;
+	border: none;
+	outline: none;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 2px #e4e5e6;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	background-color: #ffcc80;
+}
+
+.view {
+	font-size: 22px;
+	background-color: #fff;
+	padding: 7px;
+	border-radius: 5px;
+	width: 25%;
+	margin-left: 560px;
+	font-weight: bold;
+	box-shadow: 1px 2px 1px 1px #e6e6e7;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	padding: 7px;
+}
+.view:hover {
+	background-color: #e6e6e7;
+	box-shadow: 1px 1px 2px 1px #fff;
+}
